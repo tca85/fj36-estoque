@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * UnicastRemoteObject permite a classe ser chamada remotamente
  * 
  * @author tca85
  *
@@ -25,6 +26,9 @@ public class EstoqueService extends UnicastRemoteObject implements EstoqueRMI{
 		repositorio.put("WEB", new ItemEstoque("WEB", 4));
 	}
 
+	/**
+	 * Todos métodos precisam tratar a exceção RemoteException
+	 */
 	@Override
 	public ItemEstoque getItemEstoque(String codigoProduto)	throws RemoteException {
 		System.out.println("Verificando estoque do produto" + codigoProduto);

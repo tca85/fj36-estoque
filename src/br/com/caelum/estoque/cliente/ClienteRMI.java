@@ -6,6 +6,7 @@ import br.com.caelum.estoque.rmi.EstoqueRMI;
 import br.com.caelum.estoque.rmi.ItemEstoque;
 
 /**
+ * Faz a chamada remota do método da classe Estoque
  * 
  * @author tca85
  *

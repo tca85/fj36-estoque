@@ -5,6 +5,9 @@ import java.rmi.RemoteException;
 
 /**
  * 
+ * Serviço de estoque que fornece a quantidade de itens pelo código do produto
+ * utilizando RMI
+ * 
  * @author tca85
  *
  */

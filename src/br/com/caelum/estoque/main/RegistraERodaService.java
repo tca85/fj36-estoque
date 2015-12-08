@@ -5,6 +5,7 @@ import java.rmi.registry.LocateRegistry;
 import br.com.caelum.estoque.rmi.EstoqueService;
 
 /**
+ * Sobe o serviço e instancia o EstoqueService dentro do servidor
  * 
  * @author tca85
  *

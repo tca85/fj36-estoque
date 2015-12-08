@@ -6,6 +6,11 @@ import java.util.List;
 
 import br.com.caelum.estoque.rmi.ItemEstoque;
 
+/**
+ * 
+ * @author tca85
+ *
+ */
 public class TestaLeituraDeObjetos {
 
 	public static void main(String[] args) {
@@ -19,11 +24,8 @@ public class TestaLeituraDeObjetos {
 				System.out.println(itemEstoque.getQuantidade());
 				System.out.println("----------------------------");
 			}
-
-
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
 	}
-
 }

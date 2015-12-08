@@ -2,6 +2,11 @@ package br.com.caelum.estoque.rmi;
 
 import java.io.Serializable;
 
+/**
+ * 
+ * @author tca85
+ *
+ */
 public class ItemEstoque implements Serializable{
 	/**
 	 * 

@@ -8,6 +8,11 @@ import java.util.List;
 
 import br.com.caelum.estoque.rmi.ItemEstoque;
 
+/**
+ * 
+ * @author tca85
+ *
+ */
 public class TestaEscritaDeObjetos {
 	public static void main(String[] args) throws IOException {
 

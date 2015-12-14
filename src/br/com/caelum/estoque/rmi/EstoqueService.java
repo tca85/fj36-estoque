@@ -31,9 +31,8 @@ public class EstoqueService extends UnicastRemoteObject implements EstoqueRMI{
 	 */
 	@Override
 	public ItemEstoque getItemEstoque(String codigoProduto)	throws RemoteException {
-		System.out.println("Verificando estoque do produto" + codigoProduto);
+		System.out.println("Verificando estoque do produto " + codigoProduto);
 
 		return this.repositorio.get(codigoProduto);
-	} 
-
+	}
 }
